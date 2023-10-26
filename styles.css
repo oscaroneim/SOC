@@ -9,7 +9,7 @@
   border: none;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Kumbh Sans", sans-serif; */
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 :root {
@@ -114,6 +114,7 @@ body {
   font-size: 0.7rem;
   color: var(--orange);
   letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
 .product-description {
@@ -157,13 +158,13 @@ body {
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
-  background-color: navy;
+  background-color: rgb(255, 128, 0);
   font-weight: 700;
   font-size: 1rem;
   color: var(--white);
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   border-radius: 2vmin;
   padding: 2vh;
